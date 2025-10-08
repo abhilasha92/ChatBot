@@ -1,0 +1,30 @@
+{
+  "en": [
+    {
+      "id": "EN-001",
+      "prompt": "are you have delivery service?",
+      "expected_keywords": ["Yes", "delivery", "assist"],
+      "expected_behavior": "Yes, we offer various delivery options including same-day delivery, express delivery, and truck deliveries. How can I assist you with your delivery needs today?"
+    },
+    {
+      "id": "EN-002",
+      "prompt": "Do you provide home delivery services?",
+      "expected_keywords": ["delivery", "service", "available"],
+      "expected_behavior": "Yes, IKEA provides home delivery across the UAE."
+    }
+  ],
+  "ar": [
+    {
+      "id": "AR-001",
+      "prompt": "ما هو توقيت افتتاح ايكيا دبي فستيفال سيتي؟",
+      "expected_keywords": ["مدينة المهرجانات" , "دبي", "السبت"],
+      "expected_behavior": "مواعيد متجر ايكيا دبي فستيفال سيتي: • من الإثنين إلى الخميس والأحد: من الساعة 10:00 صباحًا حتى 11:00 مساءً • الجمعة والسبت: من الساعة 10:00 صباحًا حتى 12:00 صباحًا"
+    },
+    {
+      "id": "AR-002",
+      "prompt": "هل تقدمون خدمة التوصيل إلى المنازل؟",
+      "expected_keywords": ["توصيل", "الخدمة", "المنازل"],
+      "expected_behavior": "نعم، تقدم ايكيا خدمة التوصيل إلى المنازل في جميع أنحاء الإمارات."
+    }
+  ]
+}
